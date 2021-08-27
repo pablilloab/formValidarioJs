@@ -1,0 +1,45 @@
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;    
+    border: 2px solid black;
+}
+
+#submit {
+    width:5rem;
+    height: 2.5rem;
+    background-color: #2bd815;
+    margin: 1rem;
+}
+
+input {
+    width:15rem;
+    height: 2.5rem;
+    margin: 1rem;
+
+}
+
+label {
+    font-size: 2rem;
+    margin:0;
+    padding: 0;
+}
+
+.noterror {
+    border: 2px solid black;
+}
+
+.error {
+    border: 4px solid red;
+}
